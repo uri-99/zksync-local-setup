@@ -20,7 +20,7 @@ services:
   zksync:
     stdin_open: true
     tty: true
-    image: matterlabs/local-node:latest2.0
+    image: matterlabs/local-node@sha256:2bcaef42bbda68f0313641ec4825dcbe692b6705a889496ad985aad0cfea54e8
     depends_on:
       - geth
       - postgres
